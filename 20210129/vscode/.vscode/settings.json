@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  //   "editor.fontFamily": "‘FiraCode-Retina’,‘Monaco’, Menlo, Monaco, ‘Courier New’, monospace",
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "window.zoomLevel": 0,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.showTabs": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/*.map.js": true,
+    "node_modules": true
+  },
+  "eslint.validate": [
+    {"language": "vue", "autoFix": true}, //vue 체크
+    {"language": "javascript", "autoFix": true}, //자바스크립트 체크
+    {"language": "html", "autoFix": true}, //HTML 체크 <div></div> -> <div />
+  ],
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.tokenColorCustomizations": {
+    "semanticHighlighting": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.autoSave": "off",
+  "files.associations": {},
+  "highlight-matching-tag.customEmptyElements": null,
+  "colorHelper.formatsOrder": [
+  
+  ],
+  "editor.renderControlCharacters": false,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "react-native-tools.logLevel": null,
+  "editor.quickSuggestions": null,
+  "workbench.editorAssociations": [
+  
+  ]
+}
